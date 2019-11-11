@@ -13,7 +13,7 @@ export class AppComponent  {
 
   topicHasError=true;
 
-  userModel= new User('', 'rob@test.com',9975126721, 'default', 'morning');
+  userModel= new User('', '',1234567890 , 'default', 'morning');
 
   constructor(private _enrollmentService: EnrollmentService){}
 
